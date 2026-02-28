@@ -1,0 +1,47 @@
+# ========================
+# IDEs y configuración local
+# ========================
+.idea/
+*.iml
+.vscode/
+.run
+
+# ========================
+# Archivos de entorno
+# ========================
+.env
+*.env
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# Entornos virtuales
+# ========================
+venv/
+.venv/
+env/
+env.bak/
+
+# ========================
+# Archivos generados por Django
+# ========================
+/media/
+db.sqlite3
+db.sqlite3-journal
+
+# ========================
+# Cache de Python
+# ========================
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+*$py.class
+
+# ========================
+# MacOS
+# ========================
+.DS_Store
