@@ -1,10 +1,15 @@
 asgiref==3.9.1
 dj-database-url==3.0.1
-Django==5.2.5
+Django==6.1.2
+django-stubs==5.2.9
+django-stubs-ext==5.2.9
 djangorestframework==3.16.1
+djangorestframework-stubs==3.16.8
 psycopg==3.2.10
 psycopg-binary==3.2.10
 python-dotenv==1.1.1
 sqlparse==0.5.3
 style==1.1.0
+types-PyYAML==6.0.12.20250915
+typing_extensions==4.15.0
 update==0.0.1
