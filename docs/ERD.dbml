@@ -1,0 +1,28 @@
+Table users {
+  id integer [pk]
+  password varchar
+  is_superuser bool
+  username varchar
+  first_name varvhar
+  last_name varchar
+  email varchar
+  is_staff bool
+  is_active bool
+  wallet_id integer
+  role varchar
+  phone varchar
+  date_joined timestamp
+  last_login timestamp
+  created_at timestamp
+}
+
+Table wallets {
+  id int [pk]
+  user_id int [not null, ref: > users.id]
+  name varchar
+  provider varchar
+  currency varchar
+  create_at timestamp
+  update_at timestamp
+  is_active bool
+}
